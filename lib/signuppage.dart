@@ -114,7 +114,10 @@ class _SignUpPageState extends State<SignUpPage> {
       borderRadius: BorderRadius.circular(30.0),
       child: MaterialButton(
         onPressed: () {},
-        minWidth: MediaQuery.of(context).size.width,
+        minWidth: MediaQuery
+            .of(context)
+            .size
+            .width,
         child: const Text(
           'Sign Up',
           style: TextStyle(
@@ -124,17 +127,5 @@ class _SignUpPageState extends State<SignUpPage> {
         ),
       ),
     );
-  }
-
-  Widget image(){
-    return Image.asset(
-      child: Material(
-
-      ),
-    );
-
-    //   Image.asset('images/mylogo.jpg',
-    // );
-
   }
 }
